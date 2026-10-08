@@ -7,6 +7,7 @@ import { PageHeader } from "@/components/layout/PageHeader";
 import { collectionFilters, collectionPairs } from "@/data/collection";
 import { CollectionFilters } from "@/components/collection/CollectionFilters";
 import { CollectionGrid } from "@/components/collection/CollectionGrid";
+import { CollectionStripSlider } from "@/components/collection/CollectionStripSlider";
 import type { CollectionCategory } from "@/types/collection";
 
 export default function CollectionPage() {
@@ -38,6 +39,9 @@ export default function CollectionPage() {
 
       {/* Editorial Lookbook Photography Diptychs (Exactly 2 images per row, zero text) */}
       <CollectionGrid pairs={filteredPairs} />
+
+      {/* Continuous Runway Strip Slider */}
+      <CollectionStripSlider />
 
       {/* Site Footer */}
       <Footer />

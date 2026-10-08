@@ -74,7 +74,7 @@ export function OurStory({ stories = storySlides }: OurStoryProps) {
   return (
     <section
       id="our-story"
-      className="relative w-full py-16 sm:py-20 md:py-24 bg-[#FAF8F5]/60 border-y border-[#ECE7DE]/70 overflow-hidden"
+      className="relative w-full py-16 sm:py-20 md:py-24 bg-white overflow-hidden"
       aria-labelledby="story-heading"
       onTouchStart={handleTouchStart}
       onTouchEnd={handleTouchEnd}

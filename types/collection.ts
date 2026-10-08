@@ -21,3 +21,12 @@ export interface CollectionFilterOption {
   id: CollectionCategory;
   label: string;
 }
+
+export interface CollectionStripItem {
+  id: string;
+  image: string;
+  alt: string;
+  tag?: string;
+  title?: string;
+  href?: string;
+}

@@ -2,6 +2,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import { MediaGallery } from "@/components/media/MediaGallery";
+import { CraftComparisonSection } from "@/components/media/CraftComparisonSection";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -25,8 +26,12 @@ export default function MediaPage() {
         <MediaGallery />
       </main>
 
+      {/* Interactive Atelier Craft Comparison Section */}
+      <CraftComparisonSection />
+
       <Footer />
     </div>
   );
 }
+
 
