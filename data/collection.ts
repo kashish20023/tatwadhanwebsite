@@ -1,0 +1,116 @@
+import type { CollectionFilterOption, LookPair } from "@/types/collection";
+
+export const collectionFilters: CollectionFilterOption[] = [
+  { id: "all", label: "All Looks" },
+  { id: "sherwanis", label: "Couture Sherwanis" },
+  { id: "details", label: "Craft & Zardozi" },
+  { id: "atmosphere", label: "Palace & Atmosphere" },
+];
+
+export const collectionPairs: LookPair[] = [
+  {
+    id: "pair-1",
+    category: "details",
+    pairNumber: "01",
+    left: {
+      tag: "CRAFT STUDY",
+      title: "Floral Zardozi & Sequin Grids",
+      caption: "Handcrafted metallic threadwork",
+      image: "/images/image_22.webp",
+      alt: "Close-up macro of intricate floral zardozi embroidery and sequin grid details on blush raw silk",
+      focalPosition: "center 38%",
+    },
+    right: {
+      tag: "LOOK 01",
+      title: "The Royal Jaipur Sherwani",
+      caption: "Blush raw silk silhouette",
+      image: "/images/image_21.webp",
+      alt: "Model standing in hand-embroidered blush sherwani in front of heritage carpet",
+      focalPosition: "center 22%",
+    },
+  },
+  {
+    id: "pair-2",
+    category: "atmosphere",
+    pairNumber: "02",
+    left: {
+      tag: "ATMOSPHERE",
+      title: "The Courtyard Celebration",
+      caption: "Festive evening candlelight",
+      image: "/images/story_celebration.png",
+      alt: "Groom in embroidered cream sherwani celebrating with friends in Jaipur courtyard",
+      focalPosition: "center 35%",
+    },
+    right: {
+      tag: "HERITAGE",
+      title: "Palace Pavilion Study",
+      caption: "Carved sandstone pavilion",
+      image: "/images/image_02.webp",
+      alt: "Model seated on velvet cushions inside Jaipur palace dome pavilion",
+      focalPosition: "center 48%",
+    },
+  },
+  {
+    id: "pair-3",
+    category: "sherwanis",
+    pairNumber: "03",
+    left: {
+      tag: "LOOK 03",
+      title: "The Quiet Salon Study",
+      caption: "Soft morning light & textures",
+      image: "/images/image_03.webp",
+      alt: "Quiet portrait in Indian couture surrounded by white floral boughs",
+      focalPosition: "center 28%",
+    },
+    right: {
+      tag: "CEREMONIAL SET",
+      title: "The Mannequin Triptych",
+      caption: "Blush, gold zardozi & ivory",
+      image: "/images/image_04.webp",
+      alt: "Three formal royal sherwanis displayed on tailor mannequins",
+      focalPosition: "center 45%",
+    },
+  },
+  {
+    id: "pair-4",
+    category: "sherwanis",
+    pairNumber: "04",
+    left: {
+      tag: "LOOK 04",
+      title: "Reclined Festive Silhouette",
+      caption: "Antique Persian rug setting",
+      image: "/images/image_20.webp",
+      alt: "Model resting back on carpet in blush embroidered jacket",
+      focalPosition: "center 38%",
+    },
+    right: {
+      tag: "THE ATELIER",
+      title: "The Man Behind The Craft",
+      caption: "Vinayak Agarwal portrait",
+      image: "/images/image_34.webp",
+      alt: "Founder Vinayak Agarwal portrait in tailored white studio jacket",
+      focalPosition: "center 20%",
+    },
+  },
+  {
+    id: "pair-5",
+    category: "details",
+    pairNumber: "05",
+    left: {
+      tag: "DETAIL STUDY",
+      title: "Bridal Texture & Palette",
+      caption: "Relaxed couture styling",
+      image: "/images/image_05.webp",
+      alt: "Relaxed bridal couture portrait in blush palette",
+      focalPosition: "center 30%",
+    },
+    right: {
+      tag: "CAMPAIGN",
+      title: "The Wedding Chapter",
+      caption: "Amber Palace grand setting",
+      image: "/images/image_18.webp",
+      alt: "Regal wedding campaign backdrop in Amber Palace Jaipur",
+      focalPosition: "center 50%",
+    },
+  },
+];
