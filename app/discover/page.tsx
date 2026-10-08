@@ -2,7 +2,8 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { PageHeader } from "@/components/layout/PageHeader";
 import type { Metadata } from "next";
-import Link from "next/link";
+import Link from "next/link"; import { CraftComparisonSection } from "@/components/media/CraftComparisonSection";
+
 
 export const metadata: Metadata = {
   title: "Discover | The Craft of Tatvdhan",
@@ -20,7 +21,7 @@ export default function DiscoverPage() {
         eyebrow="Jaipur Artisans · Handloom Tradition"
         description="Centuries of royal Rajasthani court embroidery, brought into dialogue with modern tailoring and effortless contemporary silhouettes."
       />
-
+      <CraftComparisonSection />
       {/* Discovery Story Grid */}
       <section className="max-w-[1400px] mx-auto px-4 sm:px-6 md:px-8 py-16 md:py-24 space-y-16">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-14 items-center">

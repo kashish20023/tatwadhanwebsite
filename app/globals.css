@@ -530,7 +530,7 @@ img {
 }
 
 .collection-story {
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 
 .center-heading {
@@ -552,12 +552,12 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  width: min(100%, 1050px);
+  width: 100%;
   margin: 42px auto 0;
 }
 
 .look-card {
-  height: 380px;
+  height: clamp(380px, 32vw, 420px);
   border-radius: 2px;
   background: #e7dfd2;
 }
@@ -579,12 +579,12 @@ img {
   grid-template-columns: .8fr 1fr;
   align-items: center;
   gap: clamp(40px, 8vw, 110px);
-  width: min(100%, 980px);
+  width: 100%;
   margin: 85px auto 0;
 }
 
 .feature-copy>div {
-  max-width: 345px;
+  max-width: 380px;
 }
 
 .feature-copy h3 {
@@ -592,7 +592,7 @@ img {
 }
 
 .feature-copy figure {
-  height: 310px;
+  height: clamp(320px, 26vw, 380px);
   border-radius: 2px;
 }
 
@@ -602,7 +602,7 @@ img {
 
 .journal-section {
   padding: 86px 0 94px;
-  background: #f5f3ef;
+  background: #fff;
 }
 
 .journal-heading {
@@ -1768,6 +1768,7 @@ img {
     opacity: 0;
     transform: translateY(22px) scale(0.988);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0) scale(1);
@@ -1811,13 +1812,16 @@ img {
   width: 6px;
   height: 6px;
 }
+
 ::-webkit-scrollbar-track {
   background: #FAF8F5;
 }
+
 ::-webkit-scrollbar-thumb {
   background: #D6B772;
   border-radius: 9999px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: #93753E;
 }

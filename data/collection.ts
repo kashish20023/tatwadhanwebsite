@@ -1,4 +1,4 @@
-import type { CollectionFilterOption, LookPair } from "@/types/collection";
+import type { CollectionFilterOption, LookPair, CollectionStripItem } from "@/types/collection";
 
 export const collectionFilters: CollectionFilterOption[] = [
   { id: "all", label: "All Looks" },
@@ -114,3 +114,71 @@ export const collectionPairs: LookPair[] = [
     },
   },
 ];
+
+export const collectionStripItems: CollectionStripItem[] = [
+  {
+    id: "strip-1",
+    image: "/images/image_21.webp",
+    alt: "Model standing in hand-embroidered blush sherwani in front of heritage carpet",
+    tag: "LOOK 01",
+    title: "The Royal Jaipur Sherwani",
+    href: "/collection",
+  },
+  {
+    id: "strip-2",
+    image: "/images/image_22.webp",
+    alt: "Close-up macro of intricate floral zardozi embroidery and sequin grid details",
+    tag: "CRAFT STUDY",
+    title: "Floral Zardozi & Sequin Grids",
+    href: "/collection",
+  },
+  {
+    id: "strip-3",
+    image: "/images/image_02.webp",
+    alt: "Model seated on velvet cushions inside Jaipur palace dome pavilion",
+    tag: "HERITAGE",
+    title: "Palace Pavilion Study",
+    href: "/collection",
+  },
+  {
+    id: "strip-4",
+    image: "/images/image_20.webp",
+    alt: "Model resting back on carpet in blush embroidered jacket",
+    tag: "LOOK 04",
+    title: "Reclined Festive Silhouette",
+    href: "/occasions",
+  },
+  {
+    id: "strip-5",
+    image: "/images/story_celebration.png",
+    alt: "Groom in embroidered cream sherwani celebrating with friends in Jaipur courtyard",
+    tag: "ATMOSPHERE",
+    title: "The Courtyard Celebration",
+    href: "/occasions",
+  },
+  {
+    id: "strip-6",
+    image: "/images/image_04.webp",
+    alt: "Three formal royal sherwanis displayed on tailor mannequins",
+    tag: "CEREMONIAL SET",
+    title: "The Mannequin Triptych",
+    href: "/collection",
+  },
+  {
+    id: "strip-7",
+    image: "/images/image_03.webp",
+    alt: "Quiet portrait in Indian couture surrounded by white floral boughs",
+    tag: "LOOK 03",
+    title: "The Quiet Salon Study",
+    href: "/collection",
+  },
+  {
+    id: "strip-8",
+    image: "/images/image_18.webp",
+    alt: "Regal wedding campaign backdrop in Amber Palace Jaipur",
+    tag: "CAMPAIGN",
+    title: "The Wedding Chapter Campaign",
+    href: "/collection",
+  },
+];
+
